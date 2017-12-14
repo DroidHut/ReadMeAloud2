@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd54f"
+    tools:context="com.example.shivani.bookreader.SplashScreen">
+    <TextView
+        android:id="@+id/app_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:drawableTop="@drawable/logo"
+        android:drawablePadding="5dp"
+        android:textSize="30dp"
+        android:textColor="@color/grey"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_centerInParent="true" />
+
+    <ProgressBar
+        android:layout_below="@id/app_text"
+        android:id="@+id/progress"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:background="@null"
+        android:indeterminate="true" />
+
+</RelativeLayout>
